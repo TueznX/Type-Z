@@ -1,0 +1,50 @@
+#policies {
+    min-height: 100vh;
+    height: auto;
+    background-image: url("../../images/LogoBackground.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.policies__container {
+    margin-inline: 10px;
+    padding-block: 40px;
+}
+
+.policies__content {
+    max-width: 1480px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #3c3c3c;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.policies__content h1 {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 3ch;
+    color: #cacaca;
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 15px;
+}
+
+.policies__content p {
+    color: #474747;
+    line-height: 1.1;
+    margin-block: 20px;
+}
+
+.policies__content p span {
+    color: #919191;
+    font-weight: 600;
+}
+
+.policies__content h2 {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 3ch;
+    color: #cacaca;
+}

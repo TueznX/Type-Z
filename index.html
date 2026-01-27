@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type-Z</title>
+    <link rel="icon" href="images/Type-Z.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/info1.css">
+    <link rel="stylesheet" href="styles/products1.css">
+    <link rel="stylesheet" href="styles/products2.css">
+    <link rel="stylesheet" href="styles/rates1.css">
+    <link rel="stylesheet" href="styles/faq.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__content">
+            <a href="/" class="header__logo HomeButton"><img src="images/Type-Z.svg"><span>type-z</span></a>
+            <ul class="header__buttons">
+                <li class="header__button HomeButton"><a href="/"><i class="fa-solid fa-house"></i>Início</a></li>
+                <li class="header__button"><a href="pages/boosts.html"><i class="fa-solid fa-rocket"></i>GTA Boosts</a>
+                </li>
+                <li class="header__button"><a href="https://discord.gg/K7RQqjDMBT" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-discord"></i>Discord</a></li>
+            </ul>
+            <div class="header__mobile">
+                <button onclick="MobileMenuShow()"><i id="header__mobile-icon" class="fa-solid fa-list"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="header__mobile-menu">
+        <ul class="mobile__buttons">
+            <li class="mobile__button HomeButton"><a href="/">Início<i class="fa-solid fa-house"></i></a></li>
+            <li class="mobile__button"><a href="pages/boosts.html">GTA Boosts<i class="fa-solid fa-rocket"></i></a></li>
+            <li class="mobile__button"><a href="https://discord.gg/K7RQqjDMBT" target="_blank"
+                    rel="noopener noreferrer">Discord<i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+    </div>
+    <div id="header__sentinel"></div>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__banner">
+                <div class="hero__banner-images">
+                    <a href="pages/boosts.html"><img src="images/HeroBanner1.png"></a>
+                    <a href="pages/boosts.html"><img src="images/HeroBanner2.png"></a>
+                </div>
+                <div class="banner__buttons">
+                    <button class="active" data-index="0"></button>
+                    <button data-index="1"></button>
+                </div>
+            </div>
+            <div class="hero__main-content">
+                <div class="hero__main-text">
+                    <h1 class="hero__title"><span>Type-Z </span>The #1 Boost Ultility</h1>
+                    <p class="hero__desc">Aprimoramos sua conta no GTA Online com boosts seguros e rápidos, adicionando
+                        dinheiro, veículos, trajes exclusivos e desbloqueando todo o conteúdo do jogo para você
+                        aproveitar ao máximo, sem complicação.</p>
+                    <div class="hero__buttons"><a href="pages/boosts.html" class="hero__button"><i
+                                class="fa-solid fa-cart-shopping"></i>Explorar</a> <a href="#info"
+                            class="hero__button">Saiba
+                            Mais<i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                </div>
+                <div class="hero__image"><img src="images/HeroMainBanner.png"></div>
+            </div>
+        </div>
+    </section>
+    <section id="info" class="info1">
+        <div class="info1__content">
+            <div class="info1__video">
+                <video id="infoVideo" src="images/typez.mp4" autoplay muted loop></video>
+                <button class="video-unmute" onclick="toggleMute()"><i id="volumeIcon"
+                        class="fa-solid fa-volume-xmark"></i></button>
+            </div>
+            <div class="info1__texts">
+                <div class="info1__title">Quem somos <span>nós?</span></div>
+                <div class="info1__desc">Nossa história começou em 2020, com a criação de scripts para o jogo Anime
+                    Fighters. Com o crescimento da comunidade, expandimos nossas atividades para boosts no Blox Fruits,
+                    onde consolidamos nossa experiência em serviços personalizados e atendimento ao cliente.
+                    Em 2025, encerramos nossa atuação no universo Roblox e iniciamos uma nova fase oferecendo boosts de
+                    GTA Online e otimizações para Windows. Com o tempo, decidimos focar totalmente em um único segmento,
+                    descontinuando as otimizações e direcionando toda nossa experiência para o que fazemos hoje: boosts
+                    de GTA Online.
+                    Atualmente, trabalhamos exclusivamente com a melhoria de contas, oferecendo adição de dinheiro,
+                    desbloqueio de conteúdos, veículos, trajes exclusivos e progressão completa, sempre com foco em
+                    segurança, qualidade e confiança.</div>
+            </div>
+        </div>
+    </section>
+    <section class="products1">
+        <div class="products1__content">
+            <div class="products1__texts">
+                <h1 class="products1__title"><i class="fa-solid fa-coins"></i><span>Pacotes</span> de Dinheiro</h1>
+                <a href="pages/boosts.html">Ver Mais<i class="fa-solid fa-circle-right"></i></a>
+            </div>
+            <div class="products1__cards-container">
+                <button class="products1__left-button"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                <div class="products1__cards-container">
+                    <div class="products1__cards" id="products1__cards">
+                        <div class="products1__card" data-id="m50Mi">
+                            <div class="card__content first">
+                                <div class="card__image"><img src="images/ProductCard1.png" draggable="false"></div>
+                                <h1 class="card__title">$50Mi Dinheiro</h1>
+                                <h1 class="card__price">R$6,90 <span>R$8,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card" data-id="m100Mi">
+                            <div class="card__content">
+                                <div class="card__image"><img src="images/ProductCard2.png" draggable="false"></div>
+                                <h1 class="card__title">$100Mi Dinheiro</h1>
+                                <h1 class="card__price">R$12,90 <span>R$15,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card" data-id="m150Mi">
+                            <div class="card__content">
+                                <div class="card__image"><img src="images/ProductCard3.png" draggable="false"></div>
+                                <h1 class="card__title">$150Mi Dinheiro</h1>
+                                <h1 class="card__price">R$18,90 <span>R$22,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card special" data-id="m200Mi">
+                            <div class="card__content">
+                                <div class="card__image"><img src="images/ProductCard4.png" draggable="false"></div>
+                                <h1 class="card__title">$200Mi Dinheiro</h1>
+                                <h1 class="card__price">R$24,90 <span>R$29,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card" data-id="m250Mi">
+                            <div class="card__content last">
+                                <div class="card__image"><img src="images/ProductCard5.png" draggable="false"></div>
+                                <h1 class="card__title">$250Mi Dinheiro</h1>
+                                <h1 class="card__price">R$29,90 <span>R$35,00</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="products1__right-button"><i class="fa-solid fa-circle-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="products2">
+        <div class="products2__content">
+            <div class="products2__texts">
+                <h1 class="products2__title"><i class="fa-solid fa-rocket"></i><span>Boosts</span> completos</h1>
+                <a href="pages/boosts.html">Ver Mais<i class="fa-solid fa-circle-right"></i></a>
+            </div>
+            <div class="products2__cards-container">
+                <button class="products2__left-button"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                <div class="products2__cards-container">
+                    <div class="products2__cards" id="products2__cards">
+                        <div class="products2__card" data-id="Standart">
+                            <div class="card__content first">
+                                <div class="card__image"><img src="images/ProductCard6.png" draggable="false"></div>
+                                <h1 class="card__title">Boost Standart</h1>
+                                <h1 class="card__price">R$14,90 <span>R$18,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products2__card" data-id="Special">
+                            <div class="card__content">
+                                <div class="card__image"><img src="images/ProductCard7.png" draggable="false"></div>
+                                <h1 class="card__title">Boost Special</h1>
+                                <h1 class="card__price">R$22,90 <span>R$27,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products2__card" data-id="Advanced">
+                            <div class="card__content">
+                                <div class="card__image"><img src="images/ProductCard8.png" draggable="false"></div>
+                                <h1 class="card__title">Boost Advanced</h1>
+                                <h1 class="card__price">R$28,90 <span>R$33,90</span></h1>
+                            </div>
+                        </div>
+                        <div class="products2__card" data-id="Elite">
+                            <div class="card__content">
+                                <div class="card__image"><img src="images/ProductCard9.png" draggable="false"></div>
+                                <h1 class="card__title">Boost Elite</h1>
+                                <h1 class="card__price">R$36,90 <span>R$43,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products2__card special" data-id="Max">
+                            <div class="card__content last">
+                                <div class="card__image"><img src="images/ProductCard10.png" draggable="false"></div>
+                                <h1 class="card__title">Boost Max</h1>
+                                <h1 class="card__price">R$62,90 <span>R$72,00</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="products2__right-button"><i class="fa-solid fa-circle-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section id="rates1" class="rates1">
+        <div class="rates1__content">
+            <div class="rates1__texts">
+                <h1 class="rates1__title"><span>Avaliações </span>de nossos clientes</h1>
+                <p class="rates1__desc">Na Type-Z, cada avaliação representa nosso compromisso com qualidade, segurança
+                    e dedicação. Trabalhamos diariamente para entregar resultados confiáveis, atendimento transparente e
+                    a melhor experiência possível para cada cliente.</p>
+            </div>
+            <div class="rates1__rates">
+                <div class="rates1__line1">
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Lucas M.<br> <span>@lucasxs1</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Serviço rápido e muito bem feito. Minha conta ficou completa em pouco
+                                tempo e o suporte respondeu todas as dúvidas. Recomendo demais.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp1.webp" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Rafael S.<br> <span>@raffex10_</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Fiquei com receio no começo, mas a Type-Z passou muita confiança. Tudo foi
+                                entregue certinho e sem problemas.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Pedro H.<br> <span>@nightzz.</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Boost de GTA Online impecável. Dinheiro, veículos e desbloqueios
+                                exatamente como combinado.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp4.png" draggable="false"></div>
+                            <div class="info1__card-name">Marcos V.<br> <span>@kzinnXL99</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Atendimento excelente e resultado rápido. Dá pra ver que levam o serviço a
+                                sério.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp6.webp" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Bruno A.<br> <span>@brunoimports_</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Já testei outros serviços antes, mas a Type-Z foi a mais organizada e
+                                transparente até agora.<span> "</span></p>
+                        </div>
+                    </div>
+
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Lucas M.<br> <span>@lucasxs1</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Serviço rápido e muito bem feito. Minha conta ficou completa em pouco
+                                tempo e o suporte respondeu todas as dúvidas. Recomendo demais.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp1.webp" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Rafael S.<br> <span>@raffex10_</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Fiquei com receio no começo, mas a Type-Z passou muita confiança. Tudo foi
+                                entregue certinho e sem problemas.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Pedro H.<br> <span>@nightzz.</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Boost de GTA Online impecável. Dinheiro, veículos e desbloqueios
+                                exatamente como combinado.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp4.png" draggable="false"></div>
+                            <div class="info1__card-name">Marcos V.<br> <span>@kzinnXL99</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Atendimento excelente e resultado rápido. Dá pra ver que levam o serviço a
+                                sério.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp6.webp"></div>
+                            <div class="info1__card-name">Bruno A.<br> <span>@brunoimports_</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Já testei outros serviços antes, mas a Type-Z foi a mais organizada e
+                                transparente até agora.<span> "</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rates1__line2">
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp5.jpg"></div>
+                            <div class="info1__card-name">Daniel R.<br> <span>@danpkpal0</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Processo simples, seguro e sem dor de cabeça. Vale muito a pena.<span>
+                                    "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp3.jpg" draggable="false"></div>
+                            <div class="info1__card-name">Felipe C.<br> <span>@felipecr10</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Entrega rápida e comunicação clara do início ao fim. Com certeza voltarei
+                                a contratar.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Thiago L.<br> <span>@yagammi_0ver</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Minha conta ficou do jeito que eu queria. Serviço profissional e
+                                confiável.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Gabriel N.<br> <span>@gabmirasutiã</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Tudo funcionou perfeitamente. Ótima experiência e suporte muito
+                                atencioso.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp2.webp" draggable="false">
+                            </div>
+                            <div class="info1__card-name">André P.<br> <span>@xp10_</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Excelente custo-benefício. Dá pra confiar, recomendo para quem quer
+                                evoluir no GTA Online.<span> "</span></p>
+                        </div>
+                    </div>
+
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp5.jpg"></div>
+                            <div class="info1__card-name">Daniel R.<br> <span>@danpkpal0</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Processo simples, seguro e sem dor de cabeça. Vale muito a pena.<span>
+                                    "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp3.jpg"></div>
+                            <div class="info1__card-name">Felipe C.<br> <span>@felipecr10</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Entrega rápida e comunicação clara do início ao fim. Com certeza voltarei
+                                a contratar.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg"></div>
+                            <div class="info1__card-name">Thiago L.<br> <span>@yagammi_0ver</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Minha conta ficou do jeito que eu queria. Serviço profissional e
+                                confiável.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/nopfp.jpg" draggable="false">
+                            </div>
+                            <div class="info1__card-name">Gabriel N.<br> <span>@gabmirasutiã</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Tudo funcionou perfeitamente. Ótima experiência e suporte muito
+                                atencioso.<span> "</span></p>
+                        </div>
+                    </div>
+                    <div class="rates1__card">
+                        <div class="card__infos">
+                            <div class="info1__card-image"><img src="images/rates-pfp/pfp2.webp" draggable="false">
+                            </div>
+                            <div class="info1__card-name">André P.<br> <span>@xp10_</span></div>
+                        </div>
+                        <div class="card__main">
+                            <p><span>" </span>Excelente custo-benefício. Dá pra confiar, recomendo para quem quer
+                                evoluir no GTA Online.<span> "</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="faq">
+        <div class="faq__content">
+            <h1 class="faq__title"><span>Perguntas</span> Frequentes</h1>
+            <ul class="faq__list">
+                <li class="faq__li">
+                    <input type="radio" name="faq__section" id="faq__first">
+                    <label for="faq__first"><span>1</span>O que é a Type-Z?</label>
+                    <div class="faq__awnser">Somos uma loja especializada em boosts de GTA Online, oferecendo melhoria
+                        completa de contas com foco em segurança, rapidez e suporte direto ao cliente.</div>
+                </li>
+                <li class="faq__li">
+                    <input type="radio" name="faq__section" id="faq__second">
+                    <label for="faq__second"><span>2</span>Os boosts são seguros? Posso ser banido?</label>
+                    <div class="faq__awnser">Desde 10/12/2025 atualizamos nossos métodos, assim deixando o risco de
+                        banimento quase nulo, porém, ainda existente. Realize a compra ciente desse risco.</div>
+                </li>
+                <li class="faq__li">
+                    <input type="radio" name="faq__section" id="faq__third">
+                    <label for="faq__third"><span>3</span>Preciso passar minha conta para vocês?</label>
+                    <div class="faq__awnser">Sim, para realizar o boost é necessário acesso temporário à conta. Todas as
+                        informações são tratadas com confidencialidade e nunca são compartilhadas.</div>
+                </li>
+                <li class="faq__li">
+                    <input type="radio" name="faq__section" id="faq__fourth">
+                    <label for="faq__fourth"><span>4</span>Como posso entrar em contato com o suporte?</label>
+                    <div class="faq__awnser">Você pode nos contatar pelo Discord.</div>
+                </li>
+                <li class="faq__li">
+                    <input type="radio" name="faq__section" id="faq__fifth">
+                    <label for="faq__fifth"><span>5</span>Vocês oferecem reembolso?</label>
+                    <div class="faq__awnser">Sim, respeitamos a legislação vigente e analisamos pedidos de reembolso
+                        caso o produto ou serviço não atenda ao combinado.</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__container">
+                <div class="footer__section">
+                    <h1 class="footer__title">Links Rápidos</h1>
+                    <a href="pages/boosts.html" class="footer__link">GTA Boosts</a>
+                    <a href="#faq" class="footer__link">FAQ</a>
+                    <a href="#rates1" class="footer__link">Avaliações</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Social</h1>
+                    <a href="https://www.tiktok.com/@tueznxe" class="footer__link">TikTok</a>
+                    <a href="https://discord.gg/K7RQqjDMBT" class="footer__link">Discord</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Suporte</h1>
+                    <a href="https://discord.gg/K7RQqjDMBT" class="footer__link">Discord</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Termos e Condições</h1>
+                    <a href="pages/policies.html" class="footer__link">Reembolso</a>
+                    <a href="pages/policies.html" class="footer__link">Devolução</a>
+                    <a href="pages/policies.html" class="footer__link">Termos</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Métodos de Pagamento</h1>
+                    <p><i class="fa-brands fa-pix"></i></p>
+                </div>
+            </div>
+            <div class="footer__title-special">
+                <h1>© 2026 Type-Z Todos os direitos reservados.</h1>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/6f7452fb03.js" defer crossorigin="anonymous"></script>
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/hero.js" defer></script>
+    <script src="scripts/info1.js" defer></script>
+    <script src="scripts/products.js" defer></script>
+    <script src="scripts/loader.js" defer></script>
+</body>
+
+</html>

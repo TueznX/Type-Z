@@ -1,0 +1,252 @@
+.hero {
+    height: 130vh;
+    background-image: url("../images/GridBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (width < 544px) {
+    .hero {
+        height: 80vh;
+    }
+}
+
+.hero__content {
+    max-width: 1480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+@media (width < 1490px) {
+    .hero__content {
+        justify-content: flex-start;
+        gap: 15%;
+    }
+}
+
+.hero__banner {
+    margin-top: 20px;
+}
+
+@media (width < 487px) {
+    .hero__banner {
+        margin-top: 0;
+    }
+}
+
+.hero__banner-images {
+    max-width: 1480px;
+    max-height: 480px;
+    overflow: hidden;
+    border-radius: 12px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3c3c3c;
+    position: relative;
+    margin-inline: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+@media (width < 487px) {
+    .hero__banner-images {
+        margin-inline: 0;
+        border-radius: 0;
+        border-top: none;
+        border-inline: none;
+        box-shadow: none;
+    }
+}
+
+.hero__banner-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    transition: .3s;
+}
+
+.hero__banner-images img.active {
+    display: block;
+}
+
+.banner__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.banner__buttons button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: #444;
+    cursor: pointer;
+}
+
+.banner__buttons button.active {
+    background: #f1f1f1;
+}
+
+.hero__main-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.hero__title {
+    font-size: 5ch;
+    max-width: 20ch;
+    line-height: .9;
+}
+
+@media (width < 774px) {
+    .hero__title {
+        font-size: 5ch;
+    }
+
+    .hero__title br {
+        display: none;
+    }
+}
+
+@media (width < 544px) {
+    .hero__title {
+        font-size: 4ch;
+    }
+}
+
+.hero__title span {
+    background: linear-gradient(90deg, #523b8c, #76227c, #523b8c);
+    background-size: 200% 100%;
+    background-position: 0% 50%;
+    background-clip: text;
+    color: transparent;
+    animation: GradientTitle 4s linear infinite;
+    text-shadow:
+        0 2px 6px rgba(138, 43, 226, 0.45),
+        0 0 18px rgba(118, 34, 124, 0.35);
+}
+
+@keyframes GradientTitle {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+.hero__desc {
+    max-width: 70ch;
+    margin-top: 10px;
+    color: #3c3c3c;
+    line-height: 1.1;
+}
+
+@media (width < 544px) {
+    .hero__desc {
+        font-size: 1.2ch;
+    }
+}
+
+.hero__buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+@media (width < 1490px) {
+    .hero__buttons {
+        align-items: center;
+    }
+}
+
+.hero__button {
+    border-radius: 10px;
+    border: 1px solid #3c3c3c;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+    text-wrap: nowrap;
+}
+
+@media (width < 487px) {
+    .hero__button {
+        padding: 10px;
+    }
+}
+
+.hero__buttons a:nth-child(1) {
+    background-color: #3c3c3c1e;
+}
+
+.hero__button:hover {
+    background-color: #3c3c3c0e;
+    color: #e2e2e2;
+}
+
+.hero__buttons a:nth-child(1):hover {
+    background-color: #3c3c3c0e;
+}
+
+.hero__buttons a:nth-child(1) i {
+    margin-right: 10px;
+}
+
+.hero__buttons a:nth-child(2) i {
+    margin-left: 10px;
+}
+
+@media (width < 285px) {
+    .hero__buttons a i {
+        display: none;
+    }
+}
+
+.hero__buttons a:nth-child(2) {
+    color: #797979;
+}
+
+.hero__main-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+@media (width < 1490px) {
+    .hero__main-text {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.hero__image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width < 1490px) {
+    .hero__image {
+        display: none;
+    }
+}
+
+.hero__image img {
+    width: auto;
+    max-height: 480px;
+}

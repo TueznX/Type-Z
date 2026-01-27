@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type-Z</title>
+    <link rel="icon" href="../images/Type-Z.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="styles/product-details.css">
+    <link rel="stylesheet" href="styles/products1.css">
+    <link rel="stylesheet" href="styles/product-not-found.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="styles/purchase-popup.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__content">
+            <a href="/" class="header__logo"><img src="../images/Type-Z.svg"><span>type-z</span></a>
+            <ul class="header__buttons">
+                <li class="header__button"><a href="/"><i class="fa-solid fa-house"></i>Início</a></li>
+                <li class="header__button HomeButton"><a href="boosts.html"><i class="fa-solid fa-rocket"></i>GTA
+                        Boosts</a></li>
+                <li class="header__button"><a href="https://discord.gg/K7RQqjDMBT" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-discord"></i>Discord</a></li>
+            </ul>
+            <div class="header__mobile">
+                <button onclick="MobileMenuShow()"><i id="header__mobile-icon" class="fa-solid fa-list"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="header__mobile-menu">
+        <ul class="mobile__buttons">
+            <li class="mobile__button"><a href="/">Início<i class="fa-solid fa-house"></i></a></li>
+            <li class="mobile__button HomeButton"><a href="boosts.html">GTA Boosts<i class="fa-solid fa-rocket"></i></a>
+            </li>
+            <li class="mobile__button"><a href="https://discord.gg/K7RQqjDMBT" target="_blank"
+                    rel="noopener noreferrer">Discord<i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+    </div>
+    <div id="header__sentinel"></div>
+    <section id="product__details">
+        <div class="product__details-content">
+            <div class="details__buttons">
+                <a href="javascript:history.back()" class="back__button">Voltar</a>
+                <button id="shareBtn"><i class="fa-solid fa-share-nodes"></i><span
+                        class="text">Compartilhar</span></button>
+            </div>
+            <div class="product__main-info">
+                <div class="product__image">
+                    <div class="product__image-content"><img id="image"></div>
+                </div>
+                <div class="product__price-info">
+                    <div class="price__info-content">
+                        <div class="product__details-title">
+                            <div class="product__price-image"><img src="../images/GTAVLogo.png" draggable="false">
+                            </div>
+                            <div class="product__details-text">
+                                <h1 id="name"></h1>
+                                <p>Grand Theft Auto V Online</p>
+                            </div>
+                        </div>
+                        <h2 id="price"></h2>
+                        <button id="purchase__button">Comprar agora</button>
+                    </div>
+                    <div class="price__info-stamp">
+                        <h1><i class="fa-solid fa-shield-halved"></i>Entrega garantida</h1>
+                        <p>A entrega do seu produto é garantida ou você receberá o seu dinheiro de volta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product__desc">
+                <h1>Descrição</h1>
+                <p id="desc"></p>
+            </div>
+        </div>
+        <div class="products1__content">
+            <h1 class="products1__title">Produtos similares</h1>
+            <div class="products1__cards-container">
+                <div class="products1__cards-container">
+                    <div class="products1__cards" id="products1__cards">
+                        <div class="products1__card" data-id="m50Mi">
+                            <div class="card__content">
+                                <div class="card__image"><img src="../images/ProductCard1.png" draggable="false"></div>
+                                <h1 class="card__title">$50Mi Dinheiro</h1>
+                                <h1 class="card__price">R$6,90 <span>R$8,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card" data-id="Special">
+                            <div class="card__content">
+                                <div class="card__image"><img src="../images/ProductCard7.png" draggable="false"></div>
+                                <h1 class="card__title">Boost Special</h1>
+                                <h1 class="card__price">R$22,90 <span>R$27,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card" data-id="UnlockAll">
+                            <div class="card__content">
+                                <div class="card__image"><img src="../images/ProductCard19.png" draggable="false"></div>
+                                <h1 class="card__title">Unlock all</h1>
+                                <h1 class="card__price">R$6,90 <span>R$8,00</span></h1>
+                            </div>
+                        </div>
+                        <div class="products1__card" data-id="Cars8">
+                            <div class="card__content">
+                                <div class="card__image"><img src="../images/ProductCard13.png" draggable="false"></div>
+                                <h1 class="card__title">8 Carros modded</h1>
+                                <h1 class="card__price">R$8,90 <span>R$10,90</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div id="purchase__popup">
+        <div class="purchase__popup-content">
+            <div class="purchase__popup-texts">
+                <h1>Antes de continuar...</h1>
+                <p>Antes de prosseguir com a compra, recomendamos que você leia atentamente nossos <a
+                        href="policies.html">Termos de Serviço</a> e a
+                    <a href="policies.html">Política de Reembolso</a>, pois eles contêm informações importantes sobre o
+                    funcionamento
+                    da compra,
+                    entrega e responsabilidades. <br>
+                    Ressaltamos que a venda não é realizada diretamente neste site. Ao continuar, você será
+                    redirecionado para uma das plataformas disponíveis, de sua escolha, onde todo o processo de
+                    pagamento e finalização da compra será efetuado. <br>
+                    Ao prosseguir, você declara estar de acordo com os <a href="policies.html">termos e políticas</a>
+                    apresentados.
+                </p>
+            </div>
+            <div class="purchase__popup-buttons">
+                <h1>Selecione uma opção</h1>
+                <p>Produtos hospedados na GGMAX podem possuir alterações de preço devido as taxas de serviço da
+                    plataforma.</p>
+                <div class="popup__buttons-container">
+                    <a href="https://discord.gg/K7RQqjDMBT" draggable="false"><i
+                            class="fa-brands fa-discord"></i>Discord</a>
+                    <a href="https://ggmax.com.br/anuncio/pacotes-de-dinheiro-gta-v-online-brindes-legacy-enhanced"
+                        draggable="false"><img src="../images/GGMAXLogo.png" draggable="false"><span>GGMAX</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__container">
+                <div class="footer__section">
+                    <h1 class="footer__title">Links Rápidos</h1>
+                    <a href="/" class="footer__link">Início</a>
+                    <a href="/#faq" class="footer__link">FAQ</a>
+                    <a href="/#rates1" class="footer__link">Avaliações</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Social</h1>
+                    <a href="https://www.tiktok.com/@tueznxe" class="footer__link">TikTok</a>
+                    <a href="https://discord.gg/K7RQqjDMBT" class="footer__link">Discord</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Suporte</h1>
+                    <a href="https://discord.gg/K7RQqjDMBT" class="footer__link">Discord</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Termos e Condições</h1>
+                    <a href="policies.html" class="footer__link">Reembolso</a>
+                    <a href="policies.html" class="footer__link">Devolução</a>
+                    <a href="policies.html" class="footer__link">Termos</a>
+                </div>
+                <div class="footer__section">
+                    <h1 class="footer__title">Métodos de Pagamento</h1>
+                    <p><i class="fa-brands fa-pix"></i></p>
+                </div>
+            </div>
+            <div class="footer__title-special">
+                <h1>© 2026 Type-Z Todos os direitos reservados.</h1>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/6f7452fb03.js" defer crossorigin="anonymous"></script>
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/products.js" defer></script>
+    <script src="scripts/product-details.js" defer></script>
+    <script src="scripts/purchase-popup.js" defer></script>
+    <script src="scripts/loader.js" defer></script>
+</body>
+
+</html>
