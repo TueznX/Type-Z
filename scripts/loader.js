@@ -49,3 +49,13 @@ document.addEventListener('click', (e) => {
         window.location.href = href;
     }, 250);
 });
+
+window.addEventListener('pageshow', (event) => {
+  const loader = document.getElementById('page-loader');
+
+  if (!loader) return;
+
+  if (event.persisted) {
+    loader.classList.add('hide');
+  }
+});
