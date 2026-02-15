@@ -17,7 +17,7 @@
 .product__not-found-container {
     background-color: #1a1a1a;
     margin-inline: 10px;
-    padding: 40px;
+    padding: 25px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -75,4 +75,12 @@
     border-radius: 15px;
     cursor: pointer;
     transition: .3s;
+}
+
+#product__not-found a:hover {
+    background-color: #1d1d1d;
+}
+
+#product__not-found a:active {
+    background-color: #aaaaaa;
 }

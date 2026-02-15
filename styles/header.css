@@ -45,11 +45,11 @@
 }
 
 .header__logo:hover {
-    color: #e2e2e2;
+    color: #bebebe;
 }
 
 .header__logo img {
-    height: 60px;
+    height: 55px;
     width: auto;
 }
 
@@ -113,6 +113,14 @@
     background-color: #3c3c3c0e;
 }
 
+.header__buttons li:nth-child(3) a:active {
+    scale: .99;
+    background-color: #76227c;
+    box-shadow:
+    0 2px 6px rgba(138, 43, 226, 0.45),
+    0 0 18px rgba(118, 34, 124, 0.35);
+}
+
 .header__button a {
     text-decoration: none;
     text-wrap: nowrap;
@@ -137,7 +145,15 @@
 
 .header__button a:hover {
     background-color: #3c3c3c1e;
-    color: #e2e2e2;
+    border: 1px solid #76227c;
+}
+
+.header__button a:active {
+    scale: .99;
+    background-color: #76227c;
+    box-shadow:
+    0 2px 6px rgba(138, 43, 226, 0.45),
+    0 0 18px rgba(118, 34, 124, 0.35);
 }
 
 .header__button a i {

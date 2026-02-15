@@ -134,13 +134,16 @@
 }
 
 .products2__card:hover {
-    opacity: .8;
-    scale: 1.05;
+    border: 1px solid #76227c;
+    box-shadow:
+    0 2px 6px rgba(138, 43, 226, 0.45),
+    0 0 18px rgba(118, 34, 124, 0.35);
+    scale: 1.02;
 }
 
 .products2__card:active {
-    background-color: #838383;
-    border: 1px solid #c0c0c0;
+    scale: .99;
+    background-color: #76227c;
 }
 
 @media (width < 600px) {

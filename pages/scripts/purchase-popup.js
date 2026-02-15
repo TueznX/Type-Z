@@ -3,9 +3,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const popupContent = popup.querySelector('.purchase__popup-content');
   const buyButton = document.getElementById('purchase__button');
 
+  function getScrollbarWidth() {
+    return window.innerWidth - document.documentElement.clientWidth;
+  }
+
   buyButton.addEventListener('click', () => {
+    const scrollbarWidth = getScrollbarWidth();
+
     popup.classList.add('active');
     document.body.style.overflow = 'hidden';
+    document.body.style.paddingRight = scrollbarWidth + 'px';
   });
 
   popup.addEventListener('click', () => {
@@ -19,5 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function closePopup() {
     popup.classList.remove('active');
     document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
   }
 });

@@ -1,11 +1,16 @@
 .boosts {
     min-height: 100vh;
     height: auto;
+    background-image: url("../../images/LogoBackground.png");
+    background-color: #0f0f0f;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .boosts__content {
     display: flex;
-    margin: 10px;
+    padding: 10px;
 }
 
 @media (width < 1206px) {
@@ -268,13 +273,16 @@
 }
 
 .boosts__card:hover {
-    opacity: .9;
-    background-color: #838383;
-    border: 1px solid #c0c0c0;
+    scale: 1.02;
+    border: 1px solid #76227c;
+    box-shadow:
+    0 2px 6px rgba(138, 43, 226, 0.45),
+    0 0 18px rgba(118, 34, 124, 0.35);
 }
 
 .boosts__card:active {
-    scale: 0.97;
+    scale: .99;
+    background-color: #76227c;
 }
 
 .card__content {
