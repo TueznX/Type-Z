@@ -5,7 +5,7 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $150 milhões em dinheiro
+        - 💵 $70 milhões em dinheiro
         - 🚗 3 carros modificados
         - 🧥 3 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -19,7 +19,7 @@ const produtos = {
         
         O que está incluído neste pacote:
 
-        - 💵 $200 milhões em dinheiro
+        - 💵 $140 milhões em dinheiro
         - 🚗 5 carros modificados
         - 🧥 5 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -33,7 +33,7 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $250 milhões em dinheiro
+        - 💵 $210 milhões em dinheiro
         - 🚗 8 carros modificados
         - 🧥 8 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -47,7 +47,7 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $300 milhões em dinheiro
+        - 💵 $280 milhões em dinheiro
         - 🚗 10 carros modificados
         - 🧥 10 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
