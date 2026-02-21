@@ -1,11 +1,11 @@
 const produtos = {
     Standart: {
         nome: "Boost Standart",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $70 milhões em dinheiro
+        - 💵 $35 milhões em dinheiro
         - 🚗 3 carros modificados
         - 🧥 3 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -15,11 +15,11 @@ const produtos = {
     },
     Special: {
         nome: "Boost Special",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
         
         O que está incluído neste pacote:
 
-        - 💵 $140 milhões em dinheiro
+        - 💵 $40 milhões em dinheiro
         - 🚗 5 carros modificados
         - 🧥 5 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -29,11 +29,11 @@ const produtos = {
     },
     Advanced: {
         nome: "Boost Advanced",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $210 milhões em dinheiro
+        - 💵 $50 milhões em dinheiro
         - 🚗 8 carros modificados
         - 🧥 8 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -43,11 +43,11 @@ const produtos = {
     },
     Elite: {
         nome: "Boost Elite",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $280 milhões em dinheiro
+        - 💵 $75 milhões em dinheiro
         - 🚗 10 carros modificados
         - 🧥 10 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -57,11 +57,11 @@ const produtos = {
     },
     Max: {
         nome: "Boost Max",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $350 milhões em dinheiro
+        - 💵 $100 milhões em dinheiro
         - 🚗 12 carros modificados
         - 🧥 12 trajes modificados
         - 🌐 Nível da conta ajustado conforme sua escolha
@@ -70,52 +70,52 @@ const produtos = {
         preco: "R$62,90"
     },
     m50Mi: {
-        nome: "$50Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        nome: "$35Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $50 milhões em dinheiro`,
+        - 💵 $35 milhões em dinheiro`,
         imagem: "../images/ProductCard1.png",
         preco: "R$6,90"
     },
     m100Mi: {
-        nome: "$100Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        nome: "$40Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $100 milhões em dinheiro`,
+        - 💵 $40 milhões em dinheiro`,
         imagem: "../images/ProductCard2.png",
         preco: "R$12,90"
     },
     m150Mi: {
-        nome: "$150Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        nome: "$50Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $150 milhões em dinheiro`,
+        - 💵 $50 milhões em dinheiro`,
         imagem: "../images/ProductCard3.png",
         preco: "R$18,90"
     },
     m200Mi: {
-        nome: "$200Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        nome: "$75Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $200 milhões em dinheiro`,
+        - 💵 $75 milhões em dinheiro`,
         imagem: "../images/ProductCard4.png",
         preco: "R$24,90"
     },
     m250Mi: {
-        nome: "$250Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 30 minutos, sendo possível colocar apenas 35Mi por dia, assim para cada 35Mi adquiridos será adicionado 1 dia no prazo final. (Exceto nos pacotes de 50Mi, que é adicionado todo o valor no mesmo dia) O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        nome: "$100Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $250 milhões em dinheiro`,
+        - 💵 $100 milhões em dinheiro`,
         imagem: "../images/ProductCard5.png",
         preco: "R$29,90"
     },
