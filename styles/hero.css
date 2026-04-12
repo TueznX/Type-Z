@@ -167,6 +167,7 @@
 @media (width < 1490px) {
     .hero__buttons {
         align-items: center;
+        margin: 20px auto;
     }
 }
 
@@ -240,7 +241,7 @@
 @media (width < 1490px) {
     .hero__main-text {
         text-align: center;
-        align-items: center;
+        margin: 0 auto;
     }
 }
 
