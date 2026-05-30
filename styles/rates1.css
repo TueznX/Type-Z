@@ -100,6 +100,7 @@
 .rates1__button {
     border-radius: 10px;
     border: 1px solid #3c3c3c;
+    background-color: #161616;
     padding: 10px 20px;
     text-decoration: none;
     color: inherit;

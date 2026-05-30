@@ -105,14 +105,6 @@
     }
 }
 
-.header__buttons li:nth-child(3) a {
-    background-color: #3c3c3c1e;
-}
-
-.header__buttons li:nth-child(3) a:hover {
-    background-color: #3c3c3c0e;
-}
-
 .header__buttons li:nth-child(3) a:active {
     scale: .99;
     background-color: #76227c;
@@ -123,6 +115,7 @@
 
 .header__button a {
     text-decoration: none;
+    background-color: #161616;
     text-wrap: nowrap;
     color: inherit;
     border: 1px solid #3c3c3c;

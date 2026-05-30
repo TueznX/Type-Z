@@ -42,6 +42,7 @@
     max-width: 1480px;
     max-height: 480px;
     overflow: hidden;
+    border: 1px solid #3c3c3c;
     border-radius: 12px;
     object-fit: cover;
     display: flex;
@@ -92,6 +93,7 @@
 
 .banner__buttons button.active {
     background: #f1f1f1;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
 }
 
 .hero__main-content {
@@ -188,7 +190,7 @@
 }
 
 .hero__buttons a:nth-child(1) {
-    background-color: #3c3c3c1e;
+    background-color: #161616;
 }
 
 .hero__button:hover {
