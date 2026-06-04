@@ -67,53 +67,118 @@ const produtos = {
         imagem: "../images/ProductCard10.png",
         preco: "R$22,90"
     },
-    m50Mi: {
-        nome: "$30Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+    m20Mi: {
+        nome: "$20Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $30 milhões em dinheiro`,
+        - 💵 $20 milhões em dinheiro
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard1.png",
         preco: "R$12,90"
     },
-    m100Mi: {
-        nome: "$35Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+    m30Mi: {
+        nome: "$30Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $35 milhões em dinheiro`,
+        - 💵 $30 milhões em dinheiro
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard2.png",
         preco: "R$14,90"
     },
-    m150Mi: {
+    m40Mi: {
         nome: "$40Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $40 milhões em dinheiro`,
+        - 💵 $40 milhões em dinheiro
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard3.png",
         preco: "R$16,90"
     },
-    m200Mi: {
-        nome: "$65Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+    m45Mi: {
+        nome: "$45Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $65 milhões em dinheiro`,
+        - 💵 $45 milhões em dinheiro
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard4.png",
         preco: "R$18,90"
     },
-    m250Mi: {
-        nome: "$80Mi Dinheiro",
-        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos, sendo possível colocar apenas 50Mi por dia, assim para compras acima de 50Mi será adicionado 24h no prazo final. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
+    m50Mi: {
+        nome: "$50Mi Dinheiro",
+        descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
 
-        - 💵 $80 milhões em dinheiro`,
+        - 💵 $50 milhões em dinheiro
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard5.png",
         preco: "R$20,90"
     },

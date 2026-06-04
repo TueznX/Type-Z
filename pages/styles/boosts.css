@@ -78,6 +78,11 @@
     padding: 5px;
 }
 
+.unavailable {
+    opacity: .5;
+    pointer-events: none;
+}
+
 .boosts__filter-item:hover {
     color: #a3a3a3;
 }

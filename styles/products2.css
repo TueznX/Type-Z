@@ -133,6 +133,11 @@
     user-select: none;
 }
 
+.unavailable {
+    opacity: .5;
+    pointer-events: none;
+}
+
 .products2__card:hover {
     border: 1px solid #76227c;
     box-shadow:
