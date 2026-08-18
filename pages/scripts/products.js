@@ -5,11 +5,24 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $35 milhões em dinheiro
-        - 🌐 Nível da conta ajustado conforme sua escolha
-        - 🔓 Todas as propriedades, conquistas, estatísticas e a corridinha mod desbloqueadas`,
+        - 💵$10 Milhões de dinheiro
+        - 🚗 2 Carros modded
+        - 👕 2 Trajes modded
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard6.png",
-        preco: "R$7,90"
+        preco: "R$5,90"
     },
     Special: {
         nome: "Boost Special",
@@ -17,13 +30,24 @@ const produtos = {
         
         O que está incluído neste pacote:
 
-        - 💵 $35 milhões em dinheiro
-        - 🚗 5 carros modificados
-        - 🧥 5 trajes modificados
-        - 🌐 Nível da conta ajustado conforme sua escolha
-        - 🔓 Todas as propriedades, conquistas, estatísticas e a corridinha mod desbloqueadas`,
+        - 💵$20 Milhões de dinheiro
+        - 🚗 4 Carros modded
+        - 👕 4 Trajes modded
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard7.png",
-        preco: "R$14,90"
+        preco: "R$7,90"
     },
     Advanced: {
         nome: "Boost Advanced",
@@ -31,13 +55,24 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $40 milhões em dinheiro
-        - 🚗 8 carros modificados
-        - 🧥 8 trajes modificados
-        - 🌐 Nível da conta ajustado conforme sua escolha
-        - 🔓 Todas as propriedades, conquistas, estatísticas e a corridinha mod desbloqueadas`,
+        - 💵$30 Milhões de dinheiro
+        - 🚗 6 Carros modded
+        - 👕 6 Trajes modded
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard8.png",
-        preco: "R$18,90"
+        preco: "R$9,90"
     },
     Elite: {
         nome: "Boost Elite",
@@ -45,13 +80,24 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $75 milhões em dinheiro
-        - 🚗 10 carros modificados
-        - 🧥 10 trajes modificados
-        - 🌐 Nível da conta ajustado conforme sua escolha
-        - 🔓 Todas as propriedades, conquistas, estatísticas e a corridinha mod desbloqueadas`,
+        - 💵$40 Milhões de dinheiro
+        - 🚗 8 Carros modded
+        - 👕 8 Trajes modded
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard9.png",
-        preco: "R$20,90"
+        preco: "R$11,90"
     },
     Max: {
         nome: "Boost Max",
@@ -59,16 +105,27 @@ const produtos = {
 
         O que está incluído neste pacote:
 
-        - 💵 $85 milhões em dinheiro
-        - 🚗 12 carros modificados
-        - 🧥 12 trajes modificados
-        - 🌐 Nível da conta ajustado conforme sua escolha
-        - 🔓 Todas as propriedades, conquistas, estatísticas e a corridinha mod desbloqueadas`,
+        - 💵$45 Milhões de dinheiro
+        - 🚗 10 Carros modded
+        - 👕 10 Trajes modded
+        - 🌐 Nível à sua escolha (1 - 8000)
+        - ⬆️ Habilidades máximizadas
+        - 👟 Corrida mod
+        - ⬆️ Los Santos Tuners Nível 1000
+        - ⭐ Desbloqueio de todas conquistas
+        - 🏆 Desbloqueio de todos troféus
+        - 📗 Desbloqueio de todos colecionáveis
+        - 🔍 Desbloqueio de todas pesquisas de bunker
+        - ⚔️ Desbloqueio de todas armas
+        - 👕 Desbloqueio de todas roupas
+        - 🖍️ Desbloqueio de todas tatuagens
+        - 🪮 Desbloqueio de todos penteados
+        - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard10.png",
-        preco: "R$22,90"
+        preco: "R$13,90"
     },
-    m20Mi: {
-        nome: "$20Mi Dinheiro",
+    m30Mi: {
+        nome: "$30Mi Dinheiro",
         descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
@@ -88,10 +145,10 @@ const produtos = {
         - 🪮 Desbloqueio de todos penteados
         - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard1.png",
-        preco: "R$12,90"
+        preco: "R$3,90"
     },
-    m30Mi: {
-        nome: "$30Mi Dinheiro",
+    m35Mi: {
+        nome: "$35Mi Dinheiro",
         descricao: `O prazo de entrega para todos os produtos é de até 50 minutos. O Boost é compatível exclusivamente com a versão de GTA para PC, incluindo as plataformas Steam, Epic Games, Rockstar Launcher e Game Pass.
 
         O que está incluído neste pacote:
@@ -111,7 +168,7 @@ const produtos = {
         - 🪮 Desbloqueio de todos penteados
         - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard2.png",
-        preco: "R$14,90"
+        preco: "R$4,90"
     },
     m40Mi: {
         nome: "$40Mi Dinheiro",
@@ -134,7 +191,7 @@ const produtos = {
         - 🪮 Desbloqueio de todos penteados
         - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard3.png",
-        preco: "R$16,90"
+        preco: "R$5,90"
     },
     m45Mi: {
         nome: "$45Mi Dinheiro",
@@ -157,7 +214,7 @@ const produtos = {
         - 🪮 Desbloqueio de todos penteados
         - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard4.png",
-        preco: "R$18,90"
+        preco: "R$6,90"
     },
     m50Mi: {
         nome: "$50Mi Dinheiro",
@@ -180,7 +237,7 @@ const produtos = {
         - 🪮 Desbloqueio de todos penteados
         - 🚗 Desbloqueio de customizações de veículos`,
         imagem: "../images/ProductCard5.png",
-        preco: "R$20,90"
+        preco: "R$7,90"
     },
     Cars2: {
         nome: "2 Carros modded",
@@ -194,7 +251,7 @@ const produtos = {
 
         - https://youtu.be/UcJqtnNNLsY`,
         imagem: "../images/ProductCard11.png",
-        preco: "R$4,90"
+        preco: "R$2,90"
     },
     Cars5: {
         nome: "5 Carros modded",
@@ -208,7 +265,7 @@ const produtos = {
 
         - https://youtu.be/UcJqtnNNLsY`,
         imagem: "../images/ProductCard12.png",
-        preco: "R$6,90"
+        preco: "R$3,90"
     },
     Cars8: {
         nome: "8 Carros modded",
@@ -222,7 +279,7 @@ const produtos = {
 
         - https://youtu.be/UcJqtnNNLsY`,
         imagem: "../images/ProductCard13.png",
-        preco: "R$8,90"
+        preco: "R$4,90"
     },
     Cars12: {
         nome: "12 Carros modded",
@@ -236,7 +293,7 @@ const produtos = {
 
         - https://youtu.be/UcJqtnNNLsY`,
         imagem: "../images/ProductCard14.png",
-        preco: "R$10,90"
+        preco: "R$5,90"
     },
     Cars15: {
         nome: "15 Carros modded",
@@ -250,7 +307,7 @@ const produtos = {
 
         - https://youtu.be/UcJqtnNNLsY`,
         imagem: "../images/ProductCard15.png",
-        preco: "R$12,90"
+        preco: "R$6,90"
     },
     Outfits3: {
         nome: "3 Trajes modded",
@@ -265,7 +322,7 @@ const produtos = {
         - Masculinos: https://youtu.be/UcJqtnNNLsY
         - Femininos: https://youtu.be/kKXbBa8iODQ`,
         imagem: "../images/ProductCard16.png",
-        preco: "R$3,90"
+        preco: "R$2,90"
     },
     Outfits6: {
         nome: "6 Trajes modded",
@@ -280,7 +337,7 @@ const produtos = {
         - Masculinos: https://youtu.be/UcJqtnNNLsY
         - Femininos: https://youtu.be/kKXbBa8iODQ`,
         imagem: "../images/ProductCard17.png",
-        preco: "R$6,90"
+        preco: "R$3,90"
     },
     Outfits12: {
         nome: "12 Trajes modded",
@@ -295,7 +352,7 @@ const produtos = {
         - Masculinos: https://youtu.be/UcJqtnNNLsY
         - Femininos: https://youtu.be/kKXbBa8iODQ`,
         imagem: "../images/ProductCard18.png",
-        preco: "R$9,90"
+        preco: "R$4,90"
     },
     UnlockAll: {
         nome: "Unlock all",
@@ -306,6 +363,6 @@ const produtos = {
         - 🌐 Nível da conta ajustado conforme sua escolha (Máximo 8000)
         - 🔓 Todas as propriedades, conquistas, estatísticas e a corridinha mod desbloqueadas`,
         imagem: "../images/ProductCard19.png",
-        preco: "R$6,90"
+        preco: "R$2,90"
     },
 };
